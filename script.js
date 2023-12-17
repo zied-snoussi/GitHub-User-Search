@@ -1,8 +1,17 @@
+// JavaScript (script.js)
+
 function fetchGitHubStats() {
     const inputUsername = document.getElementById('github-username').value;
 
+    // Check if a username is provided
     if (!inputUsername) {
-        alert('Please enter a GitHub username.');
+        // Display GitHub logo as initial state
+        const githubStatsElement = document.getElementById('github-stats');
+        githubStatsElement.innerHTML = `
+            <div class="github-stats-container">
+                <img src="github.png" alt="GitHub Logo" width="550px">
+                <p class="initial-state">Enter a GitHub username to get stats.</p>
+            </div>`;
         return;
     }
 
