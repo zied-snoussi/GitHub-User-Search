@@ -1,6 +1,6 @@
 <div align="center">
     <h1>GitHub User Search</h1>
-    <img src="./img/github-logo.png" width="100px" alt="github logo"/>
+    <img src="./github-logo.png" width="100px" alt="github logo"/>
 </div>
 
 
