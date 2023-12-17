@@ -2,7 +2,8 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa; /* GitHub background color */
+    background-color: #f8f9fa;
+    /* GitHub background color */
 }
 
 .container {
@@ -12,7 +13,8 @@ body {
 }
 
 .header {
-    background-color: #24292e; /* GitHub header background color */
+    background-color: #24292e;
+    /* GitHub header background color */
     color: white;
     padding: 20px;
     text-align: center;
@@ -41,21 +43,25 @@ label {
 input {
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #ced4da; /* GitHub input border color */
+    border: 1px solid #ced4da;
+    /* GitHub input border color */
 }
 
 button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #28a745; /* GitHub green color */
+    background-color: #28a745;
+    /* GitHub green color */
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 4px; /* Rounded corners */
+    border-radius: 4px;
+    /* Rounded corners */
 }
 
 button:hover {
-    background-color: #218838; /* GitHub darker green color */
+    background-color: #218838;
+    /* GitHub darker green color */
 }
 
 .github-stats-container {
@@ -66,16 +72,23 @@ button:hover {
     text-align: center;
 }
 
+.initial-state-container {
+    text-align: center;
+}
+
 .user-photo {
-    width: 150px; /* Adjust the size of the rounded photo */
-    border-radius: 50%; /* Make the photo rounded */
+    width: 150px;
+    /* Adjust the size of the rounded photo */
+    border-radius: 50%;
+    /* Make the photo rounded */
     margin-bottom: 20px;
 }
 
 .footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #24292e; /* GitHub footer background color */
+    background-color: #24292e;
+    /* GitHub footer background color */
     color: white;
     border-radius: 0 0 8px 8px;
 }
@@ -91,4 +104,45 @@ button:hover {
 
 .footer a:hover {
     text-decoration: underline;
+}
+
+/* Media Queries for Responsive Design */
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .header img {
+        width: 30px;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .search-container {
+        margin: 10px 0;
+    }
+
+    input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .github-stats-container {
+        padding: 10px;
+    }
+
+    .initial-state-container img {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 10px 0;
+    }
 }
