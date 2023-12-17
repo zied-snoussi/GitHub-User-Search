@@ -1,6 +1,9 @@
 # GitHub User Search
 
-![GitHub Logo](/img/github-logo.png)
+<div align="center">
+    <img src="./img/github-logo.png" width="100px" alt="github logo"/>
+</div>
+
 
 ## Overview
 
